@@ -16,5 +16,20 @@ namespace GitHubExperiments
         {
             InitializeComponent();
         }
+
+        private void ShowMessage(string message)
+        {
+            MessageBox.Show(message);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ShowMessage(button1.Text);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ShowMessage(button2.Text);
+        }
     }
 }
